@@ -112,7 +112,7 @@ fn main() {
     .timeout(Timeout::Milliseconds(6000)) //milliseconds
     .show().unwrap();
     siv.add_layer(Dialog::around(TextView::new("Timer finished!"))
-                         .title("Cursive")
+                         .title("Timer")
                          .button("Quit", |s| s.quit()));
 
     siv.run();
