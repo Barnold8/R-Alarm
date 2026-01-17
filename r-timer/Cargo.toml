@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 chrono = "0.4"
 notify-rust = "4"
+cursive = "0.21"
